@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <p class="title">Weather App</p>
+        <div class="search-city">
+          <div class="search-field">
+            <input type="text" name="city" id="city_name" placeholder="City" />
+          </div>
+          <div class="search-btn">
+            <input type="button" value="Search" id="btn" />
+          </div>
+        </div>
+
+        <div class="weather-info">
+          <h2 id="location"></h2>
+          <div id="image-container"></div>
+          <p id="temperature"></p>
+        </div>
+
+        <div class="extra-info">
+            <p id="description"></p>
+            <p id="humidity"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-flex">
+        <div class="copyright">
+          <p class="text"><p id="year"></p> All rights reserved</p>
+        </div>
+        <div class="dev-by">
+          <p class="text">Developed by <span id="name">Hariharan C</span></p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
